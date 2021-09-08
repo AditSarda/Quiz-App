@@ -78,7 +78,7 @@ window.onload = function () {
 };
 
 function next() {
-    if (question_count == questions.length - 1) {
+    if (question_count == questions.length) {
         location.href = "end.html";
     }
     console.log(question_count);
